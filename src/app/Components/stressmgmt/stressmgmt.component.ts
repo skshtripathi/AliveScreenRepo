@@ -29,7 +29,7 @@ export class StressmgmtComponent implements OnInit {
   public videos: boolean= false;
   public workout: boolean= false;
   public books: boolean= false;
-  public music :boolean=true;
+  public music :boolean=false;
   public todolist: boolean= false;
   public talk: boolean= false;
 
@@ -64,7 +64,7 @@ export class StressmgmtComponent implements OnInit {
       this.videos= false;
       this.workout= false;
       this.books= false;
-      this.music=true;
+      this.music=false;
       this.todolist= false;
       this.talk= false;
     }
