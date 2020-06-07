@@ -472,9 +472,17 @@
 
 
         <!--Chatbox section-->
-        <div *ngIf = "talk" class="header-content text-md-center">
-            I am div6
+      <div *ngIf = "talk" class="header-content text-md-center" style="width: 90%;height:90%">
+        <div class="leftside">
+          <div style="width: 100%; height: 100%;margin-left: 10%">
+          <chat-dialog style="margin:10%;"></chat-dialog>   
         </div>
+          <div class="rightside">
+            <img mat-card-image src="../../assets/images/positivegif1.gif"/>
+            <button mat-button class="btn" (click)="showSuggestions()">Other Therapies</button>
+           </div>        
+        </div>
+      </div>
 
     </header>
   </body>

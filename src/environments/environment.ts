@@ -3,8 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  dialogflow :{
+    oliver: '4a03c7f77aaa423da8ca8397ab9906fd'
+  }
 };
+
+
 
 /*
  * For easier debugging in development mode, you can import the following file
